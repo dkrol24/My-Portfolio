@@ -41,7 +41,7 @@ const Work = () => {
       <h2 className="head-text">My <span>Projects</span> Section</h2>
 
       <div className="app__work-filter">
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+        {[' Small app ',' Advanced App ', ' React JS ', ' All '].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -95,10 +95,16 @@ const Work = () => {
 
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
+              <p className="p-text" style={{ marginTop: 10 }}>Description: </p>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
 
+              <p className="p-text" style={{ marginTop: 10 }}>Functions: </p>
+              <p className="p-text" style={{ marginTop: 10 }}>{work.functions}</p>
+              <p className="p-text" style={{ marginTop: 10 }}>Methods: </p>
+              <p className="p-text" style={{ marginTop: 10 }}>{work.methods}</p>
+
               <div className="app__work-tag app__flex">
-                <p className="p-text">{work.tags}</p>
+                <p className="p-text">{work.tags[0]}</p>
                               
               </div>
             </div>
