@@ -41,11 +41,13 @@ import spotify from '../assets/spotify.png';
 import biurolaptop from '../assets/biurolaptop.png';
 import jsgymlaptop from '../assets/jsgymlaptop.png';
 import kajakilaptop from '../assets/kajakilaptop.png';
+import tutshoplaptop from '../assets/tutshoplaptop.png';
 
 export default {
   hjc,
   reactredux,
   kajakilaptop,
+  tutshoplaptop,
   jsgymlaptop,
   biurolaptop,
   email,

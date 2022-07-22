@@ -6,16 +6,17 @@
     align-items: center;
 
     padding: 1rem 2rem;
-    background: rgba(255, 255, 255, 0.25);
-    // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+
+
+    /* top box shadow */
+    box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.18);
     position: fixed;
-    z-index: 2;
+    z-index: 99;
 }
 
 .testing {
+
     margin: 0;
     text-align: center;
     color: rgb(99, 107, 214);
@@ -121,7 +122,7 @@
         top: 0;
         bottom: 0;
         right: 0;
-        z-index: 5;
+        z-index: 99;
 
         padding: 1rem;
 
@@ -139,7 +140,7 @@
         background-repeat: repeat;
 
         /* top box shadow */
-        box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
+        box-shadow: 0px 0px 20px rgba(155, 5, 5, 0.15);
 
         svg {
             width: 35px;
