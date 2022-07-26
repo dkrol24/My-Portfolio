@@ -17,7 +17,6 @@ export function Item({ id }) {
         style={{ pointerEvents: "auto" }}
         className="overlay"
       >
-         <a href={projectLink}></a>
          <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -26,7 +25,7 @@ export function Item({ id }) {
         style={{ pointerEvents: "auto" }}
         className="overlay2"
       >
-      <a href={projectLink}><AiFillEye style={{width:'40px',height:'40px',color: 'var(--secondary-color)'}}/></a>
+      <a target="_blank" href={projectLink}><AiFillEye style={{width:'40px',height:'40px',color: 'var(--secondary-color)'}}/></a>
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
@@ -36,7 +35,7 @@ export function Item({ id }) {
         style={{ pointerEvents: "auto" }}
         className="overlay3"
       >
-      <a href={codeLink}><AiFillGithub style={{width:'40px',height:'40px',color: 'var(--secondary-color)'}}/></a>
+      <a target="_blank" href={codeLink}><AiFillGithub style={{width:'40px',height:'40px',color: 'var(--secondary-color)'}}/></a>
       </motion.div>
         <Link to="/"/>
       </motion.div>

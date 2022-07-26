@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react';
+import React, {  useState} from 'react';
 import emailjs from '@emailjs/browser';
 import  images  from '../../constants/images';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -72,14 +72,16 @@ const Footer = () => {
         </div>
       )}
       <div className="app__footer-cards">
+          <a href="mailto:krold2191@gmail.com" className="p-text">krold2191@gmail.com
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:krold2191@gmail.com" className="p-text">krold2191@gmail.com</a>
         </div>
+          </a>
+          <a href="tel:+48 530-764-578" className="p-text">530-764-578
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+48 530-764-578" className="p-text">530-764-578</a>
         </div>
+          </a>
       </div>
     </>
   );
