@@ -15,7 +15,7 @@ function Card({ id, title, theme, image,tags }) {
             className="title-container"
             layoutId={`title-container-${id}`}
           >
-            <h2 style={{width:'100%'}}>{title}</h2>
+            <h2>{title}</h2>
           </motion.div>
 
           <motion.div

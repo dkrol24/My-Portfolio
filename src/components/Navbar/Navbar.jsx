@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import {HiMenu, HiX} from 'react-icons/hi'
 import {motion} from 'framer-motion'
-
 import './Styles.scss'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -36,6 +35,9 @@ const Navbar = () => {
                   </a>
                   </li>
           ))}
+           <a href="https://github.com/dkrol24/Event4Active" target="_blank" rel="noopener noreferrer">
+                  <button type='button' className='p-text'>Github code</button>
+          </a>
           </ul>
               </motion.div>
             )}

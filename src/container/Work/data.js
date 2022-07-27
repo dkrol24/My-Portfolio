@@ -34,19 +34,20 @@ export const items = [
       methods:'Mui animations /  Mui styles / ReactJS / EmailJS',
       projectLink:'https://office-76830.web.app/',
       codeLink:'https://github.com/dkrol24/Office',
-      image: images.kajakilaptop,
+      image: images.biurolaptop,
       tags: 'ReactJS',
     },
     // Photo by Taneli Lahtinen on Unsplash
     {
       id: "d",
       title: "Event Company Portfolio",
-      description: "This is my very first fully responsive, multi page webstie designed for local canoe rental. Working on this site also gave me the opportunity to cooperate closely with a client.",
-      functions:'Contact form / Multi-Page / Fetch data',
-      methods:'ReactJS / EmailJS / MapJS / CSS ',
-      projectLink:'https://kajaki4active.web.app',
-      codeLink:'https://github.com/dkrol24/canoeing-app',
-      image: images.biurolaptop,
+      description: "This is my very first fully responsive, one-page webstie designed for local canoe rental. Working on this site also gave me the opportunity to cooperate closely with a client.",
+      functions:'Contact form / One-Page / Fetch data',
+      methods:'ReactJS / EmailJS / SCSS ',
+      projectLink:'https://event4active.web.app/',
+      codeLink:'https://github.com/dkrol24/Event4Active',
+     
+      image: images.kajakilaptop,
       tags: 'ReactJS',
     },
     // Photo by Simone Hutsch on Unsplash
