@@ -39,17 +39,21 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import biurolaptop from '../assets/biurolaptop.png';
+import newoffice from '../assets/newoffice.png';
 import jsgymlaptop from '../assets/jsgymlaptop.png';
 import kajakilaptop from '../assets/kajakilaptop.png';
+import kajakilaptop2 from '../assets/kajakilaptop2.png';
 import tutshoplaptop from '../assets/tutshoplaptop.png';
 
 export default {
   hjc,
   reactredux,
   kajakilaptop,
+  kajakilaptop2,
   tutshoplaptop,
   jsgymlaptop,
   biurolaptop,
+  newoffice,
   email,
 
   mobile,

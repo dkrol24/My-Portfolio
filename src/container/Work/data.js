@@ -32,9 +32,12 @@ export const items = [
       description: "This is my Second project - a fully responsive, multipage website , designed and build for a private accounting office. Very simple site featuring a working contact form and dark/light mode. Working on this site also gave me the opportunity to cooperate closely with a client.",
       functions:'Fetch data / Contact form / Dark and light mode',
       methods:'Mui animations /  Mui styles / ReactJS / EmailJS',
-      projectLink:'https://office-76830.web.app/',
       codeLink:'https://github.com/dkrol24/Office',
-      image: images.biurolaptop,
+      codelink2:'https://github.com/dkrol24/OldOffice',
+      projectLink:'https://office-76830.web.app/',
+      projectLink2:'https://oldoffice.web.app/',
+      image: images.newoffice,
+      image2: images.biurolaptop,
       tags: 'ReactJS',
     },
     // Photo by Taneli Lahtinen on Unsplash
@@ -45,9 +48,12 @@ export const items = [
       functions:'Contact form / One-Page / Fetch data',
       methods:'ReactJS / EmailJS / SCSS ',
       projectLink:'https://event4active.web.app/',
+      projectLink2:'https://kajaki4active.web.app/',
       codeLink:'https://github.com/dkrol24/Event4Active',
+      codeLink2:'https://github.com/dkrol24/canoeing-app',
      
       image: images.kajakilaptop,
+      image2: images.kajakilaptop2,
       tags: 'ReactJS',
     },
     // Photo by Simone Hutsch on Unsplash
